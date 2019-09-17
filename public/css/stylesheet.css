@@ -647,3 +647,8 @@ footer {
 	margin: 0 auto 200px;
 	overflow:hidden;
 }
+#typing{
+	width: 700px;
+    margin: 0 auto;
+    background-color: white;
+}

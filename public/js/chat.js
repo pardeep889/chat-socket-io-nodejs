@@ -189,7 +189,7 @@ $(function(){
 	chatForm.on('submit', function(e){
 
 		e.preventDefault();
-
+		$("#typing").html(""); // clear the typing message
 		// Create a new chat message and display it directly
 
 		showMessage("chatStarted");

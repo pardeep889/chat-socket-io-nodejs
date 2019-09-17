@@ -32,6 +32,11 @@ module.exports = function(app,io){
 		res.render('chat');
 	});
 
+	app.get('chat/000889', function(req,res){
+		// Render the chant.html view
+		res.render('chat');
+	})
+
 	// Initialize a new socket.io application, named 'chat'
 	var chat = io.on('connection', function (socket) {
 
